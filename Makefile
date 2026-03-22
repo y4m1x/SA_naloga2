@@ -8,10 +8,11 @@ run: stopnje_prevajanja
 clean:
 	rm -f stopnje_prevajanja main.i main.s main.o
 
+# build_i sproži predprocesiranje in ustvari datoteko main.i
 build_i: main.i
-
+# build_s sproži kompilacijo in ustvari datoteko main.s
 build_s: main.s
-
+# build_o sproži zbiranje in ustvari datoteko main.o
 build_o: main.o
 
 # 1. Predprocesiranje
