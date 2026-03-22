@@ -17,8 +17,10 @@ int main() {
     #endif
 
     if(rez) {
+        // Če je število sodo
         printf("%d je sodo stevilo.\n", STEVILO);
     } else {
+        // Če je število ne sodo oziroma liho
         printf("%d ni sodo stevilo.\n", STEVILO);
     }
 
